@@ -61,9 +61,9 @@ a value close to two (CURSE OF DIMENSIONALITY).
 
 
 The exact number of iterations for the algorithm to converge (ie produce a model
-which has not relied on outliers ) is proven by probability theory to be given by:
+which has not relied on outliers ) is proven by probability theory to be given by the following relation:
 
-   **IMAGE**
+.. Image:: /Documentation_Images/Ransac_relation.png  
 
 
 **Adaptation of RANSAC to the correspondence problem.**
@@ -87,12 +87,14 @@ RANSAC algorithm was also used.
 
 * Image Alignment
 
-.. Image::  
+
+.. Image:: /Documentation_Images/Image_Alignment.png  
 
 
 * Object Detection
 
-.. Image:: 
+
+.. Image:: /Documentation_Images/Object_Det.png   
 
 
 However for the last problem (for the specific inputs) the feature based
